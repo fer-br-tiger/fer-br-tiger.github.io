@@ -1,0 +1,4 @@
+.img-thumbnail {
+    height: 35vw;
+    object-fit: cover;
+}
