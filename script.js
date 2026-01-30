@@ -87,7 +87,7 @@ const products = [
         price: 4200,
         info: "",
         description: "Anotador tapa dura, contiene muchas hojas.",
-        images: ["img/notebook.webp", "img/notebook2.webp"]
+        images: ["img/notebook.webp"]
     },
     {
         id: 12,
@@ -168,6 +168,94 @@ const products = [
         info: "",
         description: "Pack de 10 lapiceras de colores, cada una de una fruta diferente (lleva el aroma de la fruta como banana, uva, naranja, etc).",
         images: ["img/lapicerafruta.webp"]
+    },
+    {
+        id: 22,
+        name: "Marcadores Fluo Trama",
+        price: 4500,
+        info: "",
+        description: "Pack de 5 marcadores fluo de distinto color.",
+        images: ["img/marcadorfluo.webp"]
+    },
+    {
+        id: 23,
+        name: "Resaltadores Pastel Trama",
+        price: 6500,
+        info: "",
+        description: "Pack de 4 resaltadores pastel con punta biselada de gran resistencia.",
+        images: ["img/resaltadorpastel.webp"]
+    },
+    {
+        id: 24,
+        name: "Marcadores Punta Fina Giotto",
+        price: 8500,
+        info: "",
+        description: "Pack de 20 marcadores de punta fina, lavables, no tóxicos y de punta indestructible.",
+        images: ["img/marcadorgiotto.webp"]
+    },
+    {
+        id: 25,
+        name: "Lapicera Multicolor Colorful",
+        price: 1700,
+        info: "(o 2X$3.200)",
+        description: "Lapicera multicolor. Cambia de color por periodos de uso.",
+        images: ["img/lapiceramulti.webp"]
+    },
+    {
+        id: 26,
+        name: "Lapiceras Glitter Trama",
+        price: 5000,
+        info: "",
+        description: "Pack de 5 lapiceras glitter con colores intensos y suaves al trazar.",
+        images: ["img/lapiceraglitter.webp"]
+    },
+    {
+        id: 27,
+        name: "Resaltadores Finos Fluo Trama",
+        price: 6500,
+        info: "",
+        description: "Pack de 4 resaltadores finos fluo con punta biselada de gran resistencia.",
+        images: ["img/resaltadoresfino.webp"]
+    },
+    {
+        id: 28,
+        name: "Microfibras Trama",
+        price: 11000,
+        info: "",
+        description: "Pack de 10 microfibras de colores con punta metálica. Estas son exactas, con trazo suave y con punta metálica.",
+        images: ["img/microfibratrama.webp"]
+    },
+    {
+        id: 29,
+        name: "Temperas Solidas",
+        price: 18000,
+        info: "",
+        description: "Pack de 6 temperas sólidas listas para usar. No requieren agua, fácil de lavar y no son tóxicas.",
+        images: ["img/temperasolmet.webp"]
+    },
+    {
+        id: 30,
+        name: "Temperas Solidas",
+        price: 8500,
+        info: "",
+        description: "Pack de 2 temperas sólidas listas para usar. No requieren agua, fácil de lavar y no son tóxicas.",
+        images: ["img/temperasolclas.webp"]
+    },
+    {
+        id: 31,
+        name: "Perforadora de papel Ibi Craft",
+        price: 0,
+        info: "",
+        description: "Perforadora de papel con forma de nota musical.",
+        images: ["img/perforadoramusic.webp"]
+    },
+    {
+        id: 32,
+        name: "Libro de Arte Cozy",
+        price: 6500,
+        info: "",
+        description: "Libro de Arte Cozy para pintar y relajarse con hermosos dibujos. ¡Único!",
+        images: ["img/libroartecozy.webp", "img/libroartecozy2.webp"]
     }
 ];
 
