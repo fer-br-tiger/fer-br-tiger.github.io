@@ -3,45 +3,171 @@
 const products = [
     {
         id: 1,
-        name: "Lápiz Infinito",
-        price: 3000,
-        description: "Lápiz infinito con aspecto de lapicera. Hermoso diseño.",
+        name: "Lápiz Negro Infinito",
+        price: 2000,
+        info: "(c/u)",
+        description: "Lápiz infinito. Hermoso diseño.",
         images: ["img/lapiz.webp", "https://placehold.co/600x600/6a11cb/white?text=Lápiz+2", "https://placehold.co/600x600/orange/white?text=Lápiz+3"]
     },
     {
         id: 2,
-        name: "Lapicera Multicolor",
-        price: 3000,
+        name: "Lapicera Multicolor Kuromi",
+        price: 2800,
+        info: "(c/u)",
         description: "Extraordinarias lapiceras con múltiples colores (rojo, verde, celeste...).",
         images: ["img/lapiceras.webp", "https://placehold.co/600x600/darkgreen/white?text=Lapiceras+2"]
     },
     {
         id: 3,
-        name: "Gomas X2",
-        price: 2000,
-        description: "Combo gomas de colores, incluye una triangular",
+        name: "Gomas",
+        price: 2200,
+        info: "(triangular $1.000, rayada $1.200)",
+        description: "Gomas de colores, triangular y rayada",
         images: ["img/gomas.webp", "https://placehold.co/600x600/darkred/white?text=Gomas+2"]
     },
     {
         id: 4,
-        name: "Cartuchera",
-        price: 6800,
+        name: "Cartuchera Trama",
+        price: 5500,
+        info: "",
         description: "Cartuchera de goma.",
         images: ["img/cartuchera.webp", "https://placehold.co/600x600/violet/white?text=Cartuchera"]
     },
     {
         id: 5,
-        name: "Acuarela",
-        price: 6000,
+        name: "Acuarelas",
+        price: 5500,
+        info: "",
         description: "Hermosos colores de acuarela (12 colores).",
         images: ["img/acuarela.webp", "img/acuarela2.webp"]
     },
     {
         id: 6,
         name: "Lápices Giotto",
-        price: 6000,
+        price: 6500,
+        info: "",
         description: "Pack de 12 lápices de colores, reforzados con minas resistentes.",
         images: ["img/lapices.webp"]
+    },
+    {
+        id: 7,
+        name: "Lápices Amor",
+        price: 4800,
+        info: "",
+        description: "Pack de 12 lápices de colores.",
+        images: ["img/lapices2.webp"]
+    },
+    {
+        id: 8,
+        name: "Lápices Trama",
+        price: 5500,
+        info: "",
+        description: "Pack de 12 lápices de colores intensos, suaves al trazar.",
+        images: ["img/lapices3.webp"]
+    },
+    {
+        id: 9,
+        name: "Lápiz Negro",
+        price: 300,
+        info: "(c/u, 2X$500 o 3X$800)",
+        description: "Lápiz Negro HB con goma.",
+        images: ["img/lapiznegro.webp"]
+    },
+    {
+        id: 10,
+        name: "Notas Adhesivas Trama",
+        price: 3500,
+        info: "",
+        description: "Señaladores de página autoadhesivos fluo 12x45mm.",
+        images: ["img/notasad.webp"]
+    },
+    {
+        id: 11,
+        name: "Anotador con espiral tapa dura",
+        price: 4200,
+        info: "",
+        description: "Anotador tapa dura, contiene muchas hojas.",
+        images: ["img/notebook.webp", "img/notebook2.webp"]
+    },
+    {
+        id: 12,
+        name: "Libreta chica azul",
+        price: 2500,
+        info: "",
+        description: "Libreta chica para anotaciones rápidas, ideal para fácil transporte.",
+        images: ["img/libretazul.webp", "img/libretazul2.webp"]
+    },
+    {
+        id: 13,
+        name: "Libreta chica rosa",
+        price: 2000,
+        info: "",
+        description: "Libreta chica para anotaciones rápidas, ideal para fácil transporte.",
+        images: ["img/libretarosa.webp"]
+    },
+    {
+        id: 14,
+        name: "Anotador Mediano",
+        price: 3000,
+        info: "",
+        description: "Anotador mediano rayado.",
+        images: ["img/anotadorstory.webp", "img/anotadorstory2.webp"]
+    },
+    {
+        id: 15,
+        name: "Diario Personal Exploratorio",
+        price: 12000,
+        info: "",
+        description: "Diario personal con pequeñas frases motivadoras en las hojas.",
+        images: ["img/personaldiary.webp", "img/personaldiary2.webp"]
+    },
+    {
+        id: 16,
+        name: "Anotador Cuadriculado",
+        price: 0,
+        info: "",
+        description: "Anotador con 90 hojas cuadriculadas.",
+        images: ["img/anotadormin.webp"]
+    },
+    {
+        id: 17,
+        name: "Lapicera Pocket Negra",
+        price: 2500,
+        info: "",
+        description: "Lapicera pocket naranja, trazo negro.",
+        images: ["img/lapicerapocket.webp"]
+    },
+    {
+        id: 18,
+        name: "Lapicera azul",
+        price: 2300,
+        info: "",
+        description: "Lapicera verde, trazo azul 0,7mm.",
+        images: ["img/lapiceraverde.webp"]
+    },
+    {
+        id: 19,
+        name: "Lapicera Líquida Tinta",
+        price: 3200,
+        info: "",
+        description: "Lapicera líquida tinta, trazo azul.",
+        images: ["img/lapiceratinta.webp"]
+    },
+    {
+        id: 20,
+        name: "Portamina Gris Trama",
+        price: 2200,
+        info: "",
+        description: "Portamina gris de 0,5mm.",
+        images: ["img/portamina.webp"]
+    },
+    {
+        id: 21,
+        name: "Lapiceras frutales",
+        price: 6500,
+        info: "",
+        description: "Pack de 10 lapiceras de colores, cada una de una fruta diferente (lleva el aroma de la fruta como banana, uva, naranja, etc).",
+        images: ["img/lapicerafruta.webp"]
     }
 ];
 
@@ -72,7 +198,7 @@ function renderProducts(items) {
                             <h5 class="card-title fw-bold">${product.name}</h5>
                             <p class="card-text text-muted text-truncate">${product.description}</p>
                             <div class="mt-auto d-flex justify-content-between align-items-center">
-                                <span class="price-tag">$${product.price.toLocaleString('es-AR')}</span>
+                                <span class="price-tag">$${product.price.toLocaleString('es-AR')} ${product.info}</span>
                                 <button class="btn btn-outline-primary btn-sm">Ver más</button>
                             </div>
                         </div>
@@ -89,7 +215,7 @@ window.openProductModal = function (id) {
 
     // Llenar datos básicos
     document.getElementById('modalTitle').textContent = product.name;
-    document.getElementById('modalPrice').textContent = `$${product.price.toLocaleString('es-AR')}`;
+    document.getElementById('modalPrice').textContent = `$${product.price.toLocaleString('es-AR')} ${product.info}`;
     document.getElementById('modalDescription').textContent = product.description;
 
     // Configurar botón WhatsApp específico del modal
