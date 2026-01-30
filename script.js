@@ -7,7 +7,7 @@ const products = [
         price: 2000,
         info: "(c/u)",
         description: "Lápiz infinito. Hermoso diseño.",
-        images: ["img/lapiz.webp", "https://placehold.co/600x600/6a11cb/white?text=Lápiz+2", "https://placehold.co/600x600/orange/white?text=Lápiz+3"]
+        images: ["img/lapiz.webp"]
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ const products = [
         price: 2800,
         info: "(c/u)",
         description: "Extraordinarias lapiceras con múltiples colores (rojo, verde, celeste...).",
-        images: ["img/lapiceras.webp", "https://placehold.co/600x600/darkgreen/white?text=Lapiceras+2"]
+        images: ["img/lapiceras.webp"]
     },
     {
         id: 3,
@@ -23,7 +23,7 @@ const products = [
         price: 2200,
         info: "(triangular $1.000, rayada $1.200)",
         description: "Gomas de colores, triangular y rayada",
-        images: ["img/gomas.webp", "https://placehold.co/600x600/darkred/white?text=Gomas+2"]
+        images: ["img/gomas.webp"]
     },
     {
         id: 4,
@@ -31,7 +31,7 @@ const products = [
         price: 5500,
         info: "",
         description: "Cartuchera de goma.",
-        images: ["img/cartuchera.webp", "https://placehold.co/600x600/violet/white?text=Cartuchera"]
+        images: ["img/cartuchera.webp"]
     },
     {
         id: 5,
