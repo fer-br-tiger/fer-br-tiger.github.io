@@ -1,4 +1,63 @@
-.img-thumbnail {
-    height: 35vw;
-    object-fit: cover;
+/* Estilos personalizados */
+body {
+	background-color: #f8f9fa;
+}
+
+.hero-section {
+	background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+	color: white;
+	padding: 60px 0;
+	margin-bottom: 30px;
+	border-radius: 0 0 20px 20px;
+}
+
+.product-card {
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+	cursor: pointer;
+	border: none;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.product-card:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+	height: 200px;
+	object-fit: cover;
+}
+
+.price-tag {
+	font-size: 1.2rem;
+	font-weight: bold;
+	color: #2575fc;
+}
+
+/* Botón Flotante de WhatsApp */
+.whatsapp-float {
+	position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 30px;
+	right: 30px;
+	background-color: #25d366;
+	color: #FFF;
+	border-radius: 50px;
+	text-align: center;
+	font-size: 30px;
+	box-shadow: 2px 2px 3px #999;
+	z-index: 1000;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: all 0.3s ease;
+	text-decoration: none;
+}
+
+.whatsapp-float:hover {
+	background-color: #128C7E;
+	transform: scale(1.1);
+	color: white;
 }
