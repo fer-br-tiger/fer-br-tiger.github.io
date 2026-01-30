@@ -124,7 +124,7 @@ const products = [
     {
         id: 16,
         name: "Anotador Cuadriculado",
-        price: 0,
+        price: 3500,
         info: "",
         description: "Anotador con 90 hojas cuadriculadas.",
         images: ["img/anotadormin.webp"]
@@ -244,7 +244,7 @@ const products = [
     {
         id: 31,
         name: "Perforadora de papel Ibi Craft",
-        price: 0,
+        price: 4500,
         info: "",
         description: "Perforadora de papel con forma de nota musical.",
         images: ["img/perforadoramusic.webp"]
