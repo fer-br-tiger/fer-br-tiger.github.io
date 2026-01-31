@@ -7,6 +7,7 @@ const products = [
         price: 2000,
         info: "(c/u)",
         description: "Lápiz infinito. Hermoso diseño.",
+        stock: true,
         images: ["img/lapiz.webp"]
     },
     {
@@ -15,6 +16,7 @@ const products = [
         price: 2800,
         info: "(c/u)",
         description: "Extraordinarias lapiceras con múltiples colores (rojo, verde, celeste...).",
+        stock: true,
         images: ["img/lapiceras.webp"]
     },
     {
@@ -23,6 +25,7 @@ const products = [
         price: 2200,
         info: "(triangular $1.000, rayada $1.200)",
         description: "Gomas de colores, triangular y rayada",
+        stock: true,
         images: ["img/gomas.webp"]
     },
     {
@@ -31,6 +34,7 @@ const products = [
         price: 5500,
         info: "",
         description: "Cartuchera de goma.",
+        stock: true,
         images: ["img/cartuchera.webp"]
     },
     {
@@ -39,6 +43,7 @@ const products = [
         price: 5500,
         info: "",
         description: "Hermosos colores de acuarela (12 colores).",
+        stock: true,
         images: ["img/acuarela.webp", "img/acuarela2.webp"]
     },
     {
@@ -47,6 +52,7 @@ const products = [
         price: 6500,
         info: "",
         description: "Pack de 12 lápices de colores, reforzados con minas resistentes.",
+        stock: true,
         images: ["img/lapices.webp"]
     },
     {
@@ -55,6 +61,7 @@ const products = [
         price: 4800,
         info: "",
         description: "Pack de 12 lápices de colores.",
+        stock: true,
         images: ["img/lapices2.webp"]
     },
     {
@@ -63,6 +70,7 @@ const products = [
         price: 5500,
         info: "",
         description: "Pack de 12 lápices de colores intensos, suaves al trazar.",
+        stock: true,
         images: ["img/lapices3.webp"]
     },
     {
@@ -71,6 +79,7 @@ const products = [
         price: 300,
         info: "(c/u, 2X$500 o 3X$800)",
         description: "Lápiz Negro HB con goma.",
+        stock: true,
         images: ["img/lapiznegro.webp"]
     },
     {
@@ -79,6 +88,7 @@ const products = [
         price: 3500,
         info: "",
         description: "Señaladores de página autoadhesivos fluo 12x45mm.",
+        stock: true,
         images: ["img/notasad.webp"]
     },
     {
@@ -87,6 +97,7 @@ const products = [
         price: 4200,
         info: "",
         description: "Anotador tapa dura, contiene muchas hojas.",
+        stock: true,
         images: ["img/notebook.webp"]
     },
     {
@@ -95,6 +106,7 @@ const products = [
         price: 2500,
         info: "",
         description: "Libreta chica para anotaciones rápidas, ideal para fácil transporte.",
+        stock: true,
         images: ["img/libretazul.webp", "img/libretazul2.webp"]
     },
     {
@@ -103,6 +115,7 @@ const products = [
         price: 2000,
         info: "",
         description: "Libreta chica para anotaciones rápidas, ideal para fácil transporte.",
+        stock: true,
         images: ["img/libretarosa.webp"]
     },
     {
@@ -111,6 +124,7 @@ const products = [
         price: 3000,
         info: "",
         description: "Anotador mediano rayado.",
+        stock: true,
         images: ["img/anotadorstory.webp", "img/anotadorstory2.webp"]
     },
     {
@@ -119,6 +133,7 @@ const products = [
         price: 12000,
         info: "",
         description: "Diario personal con pequeñas frases motivadoras en las hojas.",
+        stock: true,
         images: ["img/personaldiary.webp", "img/personaldiary2.webp"]
     },
     {
@@ -127,6 +142,7 @@ const products = [
         price: 3500,
         info: "",
         description: "Anotador con 90 hojas cuadriculadas.",
+        stock: true,
         images: ["img/anotadormin.webp"]
     },
     {
@@ -135,6 +151,7 @@ const products = [
         price: 2500,
         info: "",
         description: "Lapicera pocket naranja, trazo negro.",
+        stock: true,
         images: ["img/lapicerapocket.webp"]
     },
     {
@@ -143,6 +160,7 @@ const products = [
         price: 2300,
         info: "",
         description: "Lapicera verde, trazo azul 0,7mm.",
+        stock: true,
         images: ["img/lapiceraverde.webp"]
     },
     {
@@ -151,6 +169,7 @@ const products = [
         price: 3200,
         info: "",
         description: "Lapicera líquida tinta, trazo azul.",
+        stock: true,
         images: ["img/lapiceratinta.webp"]
     },
     {
@@ -159,6 +178,7 @@ const products = [
         price: 2200,
         info: "",
         description: "Portamina gris de 0,5mm.",
+        stock: true,
         images: ["img/portamina.webp"]
     },
     {
@@ -167,6 +187,7 @@ const products = [
         price: 6500,
         info: "",
         description: "Pack de 10 lapiceras de colores, cada una de una fruta diferente (lleva el aroma de la fruta como banana, uva, naranja, etc).",
+        stock: true,
         images: ["img/lapicerafruta.webp"]
     },
     {
@@ -175,6 +196,7 @@ const products = [
         price: 4500,
         info: "",
         description: "Pack de 5 marcadores fluo de distinto color.",
+        stock: true,
         images: ["img/marcadorfluo.webp"]
     },
     {
@@ -183,6 +205,7 @@ const products = [
         price: 6500,
         info: "",
         description: "Pack de 4 resaltadores pastel con punta biselada de gran resistencia.",
+        stock: true,
         images: ["img/resaltadorpastel.webp"]
     },
     {
@@ -191,6 +214,7 @@ const products = [
         price: 8500,
         info: "",
         description: "Pack de 20 marcadores de punta fina, lavables, no tóxicos y de punta indestructible.",
+        stock: true,
         images: ["img/marcadorgiotto.webp"]
     },
     {
@@ -199,6 +223,7 @@ const products = [
         price: 1700,
         info: "(o 2X$3.200)",
         description: "Lapicera multicolor. Cambia de color por periodos de uso.",
+        stock: true,
         images: ["img/lapiceramulti.webp"]
     },
     {
@@ -207,6 +232,7 @@ const products = [
         price: 5000,
         info: "",
         description: "Pack de 5 lapiceras glitter con colores intensos y suaves al trazar.",
+        stock: true,
         images: ["img/lapiceraglitter.webp"]
     },
     {
@@ -215,6 +241,7 @@ const products = [
         price: 6500,
         info: "",
         description: "Pack de 4 resaltadores finos fluo con punta biselada de gran resistencia.",
+        stock: true,
         images: ["img/resaltadoresfino.webp"]
     },
     {
@@ -223,6 +250,7 @@ const products = [
         price: 11000,
         info: "",
         description: "Pack de 10 microfibras de colores con punta metálica. Estas son exactas, con trazo suave y con punta metálica.",
+        stock: true,
         images: ["img/microfibratrama.webp"]
     },
     {
@@ -231,6 +259,7 @@ const products = [
         price: 18000,
         info: "",
         description: "Pack de 6 temperas sólidas listas para usar. No requieren agua, fácil de lavar y no son tóxicas.",
+        stock: true,
         images: ["img/temperasolmet.webp"]
     },
     {
@@ -239,6 +268,7 @@ const products = [
         price: 8500,
         info: "",
         description: "Pack de 2 temperas sólidas listas para usar. No requieren agua, fácil de lavar y no son tóxicas.",
+        stock: true,
         images: ["img/temperasolclas.webp"]
     },
     {
@@ -247,6 +277,7 @@ const products = [
         price: 4500,
         info: "",
         description: "Perforadora de papel con forma de nota musical.",
+        stock: true,
         images: ["img/perforadoramusic.webp"]
     },
     {
@@ -255,6 +286,7 @@ const products = [
         price: 6500,
         info: "",
         description: "Libro de Arte Cozy para pintar y relajarse con hermosos dibujos. ¡Único!",
+        stock: true,
         images: ["img/libroartecozy.webp", "img/libroartecozy2.webp"]
     }
 ];
@@ -280,7 +312,7 @@ function renderProducts(items) {
         col.className = 'col-12 col-md-6 col-lg-4';
 
         col.innerHTML = `
-                    <div class="card product-card h-100 shadow-sm" onclick="openProductModal(${product.id})">
+                    <div class="${product.stock? 'opacity-100' : 'opacity-50'} card product-card h-100 shadow-sm" onclick="openProductModal(${product.id})">
                         <img src="${product.images[0]}" class="card-img-top" alt="${product.name}">
                         <div class="card-body d-flex flex-column">
                             <h5 class="card-title fw-bold">${product.name}</h5>
@@ -305,6 +337,12 @@ window.openProductModal = function (id) {
     document.getElementById('modalTitle').textContent = product.name;
     document.getElementById('modalPrice').textContent = `$${product.price.toLocaleString('es-AR')} ${product.info}`;
     document.getElementById('modalDescription').textContent = product.description;
+    document.getElementById('modalStock').innerHTML = `
+        ${
+            product.stock? '<i class="bi bi-check-circle-fill text-success me-2"></i>Stock disponible' : 
+            '<i class="bi bi-x-circle-fill text-danger me-2"></i>No hay stock disponible'
+        }
+    `;
 
     // Configurar botón WhatsApp específico del modal
     const waMsg = `Hola. Me interesa el producto "${product.name}". Necesito ayuda...`;
