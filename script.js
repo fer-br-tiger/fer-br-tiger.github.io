@@ -4,7 +4,7 @@ const products = [
     {
         id: 1,
         name: "Lápiz Negro Infinito",
-        price: 2000,
+        price: 1500,
         info: "(c/u)",
         description: "Lápiz infinito. Hermoso diseño.",
         stock: true,
@@ -13,7 +13,7 @@ const products = [
     {
         id: 2,
         name: "Lapicera Multicolor Kuromi",
-        price: 2800,
+        price: 2000,
         info: "(c/u)",
         description: "Extraordinarias lapiceras con múltiples colores (rojo, verde, celeste...).",
         stock: true,
@@ -40,7 +40,7 @@ const products = [
     {
         id: 5,
         name: "Acuarelas",
-        price: 5500,
+        price: 3000,
         info: "",
         description: "Hermosos colores de acuarela (12 colores).",
         stock: true,
@@ -49,7 +49,7 @@ const products = [
     {
         id: 6,
         name: "Lápices Giotto",
-        price: 6500,
+        price: 4500,
         info: "",
         description: "Pack de 12 lápices de colores, reforzados con minas resistentes.",
         stock: true,
@@ -58,7 +58,7 @@ const products = [
     {
         id: 7,
         name: "Lápices Amor",
-        price: 4800,
+        price: 2300,
         info: "",
         description: "Pack de 12 lápices de colores.",
         stock: true,
@@ -67,7 +67,7 @@ const products = [
     {
         id: 8,
         name: "Lápices Trama",
-        price: 5500,
+        price: 4500,
         info: "",
         description: "Pack de 12 lápices de colores intensos, suaves al trazar.",
         stock: true,
@@ -139,7 +139,7 @@ const products = [
     {
         id: 16,
         name: "Anotador Cuadriculado",
-        price: 3500,
+        price: 2500,
         info: "",
         description: "Anotador con 90 hojas cuadriculadas.",
         stock: true,
@@ -183,8 +183,8 @@ const products = [
     },
     {
         id: 21,
-        name: "Lapiceras frutales",
-        price: 6500,
+        name: "Lapiceras frutales perfumadas",
+        price: 5000,
         info: "",
         description: "Pack de 10 lapiceras de colores, cada una de una fruta diferente (lleva el aroma de la fruta como banana, uva, naranja, etc).",
         stock: true,
@@ -220,8 +220,8 @@ const products = [
     {
         id: 25,
         name: "Lapicera Multicolor Colorful",
-        price: 1700,
-        info: "(o 2X$3.200)",
+        price: 4000,
+        info: "(o $700 c/u)",
         description: "Lapicera multicolor. Cambia de color por periodos de uso.",
         stock: true,
         images: ["img/lapiceramulti.webp"]
@@ -256,7 +256,7 @@ const products = [
     {
         id: 29,
         name: "Temperas Solidas",
-        price: 18000,
+        price: 10200,
         info: "",
         description: "Pack de 6 temperas sólidas listas para usar. No requieren agua, fácil de lavar y no son tóxicas.",
         stock: true,
@@ -265,7 +265,7 @@ const products = [
     {
         id: 30,
         name: "Temperas Solidas",
-        price: 8500,
+        price: 5000,
         info: "",
         description: "Pack de 2 temperas sólidas listas para usar. No requieren agua, fácil de lavar y no son tóxicas.",
         stock: true,
@@ -283,7 +283,7 @@ const products = [
     {
         id: 32,
         name: "Libro de Arte Cozy",
-        price: 6500,
+        price: 6000,
         info: "",
         description: "Libro de Arte Cozy para pintar y relajarse con hermosos dibujos. ¡Único!",
         stock: true,
